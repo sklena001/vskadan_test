@@ -224,6 +224,7 @@ calculateNewScale();
 	function calculateNewScale() {
 		var percentage0n1 = $(window).width() / 1920) ;
 		$("body").css({
+			"-webkit-text-size-adjust": "scale("+percentage0n1 +"),
 			"-moz-transform": "scale("+percentage0n1 +")",
 			"-webkit-transform": "scale("+percentage0n1 +")",
 			"transform": "scale("+percentage0n1 +")}); }
