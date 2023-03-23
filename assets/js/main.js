@@ -226,7 +226,7 @@ calculateNewScale();
 		$("body").css({
 			"-moz-transform": "scale("+percentage0n1 +")",
 			"-webkit-transform": "scale("+percentage0n1 +")",
-			"-transform": "scale("+percentage0n1 +")}); }
+			"transform": "scale("+percentage0n1 +")}); }
 	
 //---------------------
 			
