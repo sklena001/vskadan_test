@@ -215,6 +215,20 @@
 			.on('load', function() {
 				$window.trigger('resize');
 			});
+	
+//---------------------
+	
+calculateNewScale();
+	$(window).resize(function () {
+		calculateNewScale(); });
+	function calculateNewScale() {
+		var percentage0n1 = $(window).width() / 1920) ;
+		$("body").css({
+			"-moz-transform": "scale("+percentage0n1 +")",
+			"-webkit-transform": "scale("+percentage0n1 +")",
+			"-transform": "scale("+percentage0n1 +")}); }
+	
+//---------------------
 			
 			//----------------------------------
 			
