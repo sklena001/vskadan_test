@@ -52,10 +52,7 @@ table {
 }
 
 body {
-	-webkit-text-size-adjust: scale(1);
-	-moz-transform: scale(1);
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-webkit-text-size-adjust: none;
 }
 
 mark {
