@@ -2725,7 +2725,7 @@ body {
 }*/
 .Click-here {
   cursor: pointer;
-  /*background-image: linear-gradient(190deg, #ffffff 0%, #2b4196 100%);*/
+  background-color: #ffffff;
   color: #39454b;
   width: 10em;
   text-align: center;
@@ -2739,7 +2739,7 @@ body {
  }
 .Click-here:hover{
   transition:background-image 3s ease-in-out;
-  background-image: background-color(#b9b9b9);
+  background-color: #b9b9b9;
 }
 .custom-model-main {
   text-align: center;
